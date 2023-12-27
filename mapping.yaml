@@ -1,0 +1,28 @@
+database: 
+   name: ABC
+schemas:
+   - RAW
+   - DEFINED
+databaseroles: 
+  admin_role : DR_ADMIN
+  dev_role : DR_RW
+  analyst_role : DR_RO
+functionalroles:
+  admin_role : FR_ADMIN
+  dev_role : FR_DEVELOPER
+  analyst_role : FR_ANALYST
+serviceintegrationroles:
+   - AR_INTEG_OPERATOR
+parent_snowflake_role : SYSADMIN
+warehouses: 
+   - LOAD_PROD_WH
+   - ADHOC_WH
+warehouseroles:
+  admin_role : AR_WH_ADMIN
+  dev_role : AR_WH_OPERATOR
+admin_user: 
+   - TRN86
+developer_user: 
+   - TRN86
+analyst_user: 
+   - TRN86

@@ -1,0 +1,16 @@
+https://quickstarts.snowflake.com/guide/getting_started_with_python/index.html#0
+
+open visual studio code
+
+open terminal bash
+
+pip3 install pandas
+pip3 install snowflake-connector-python
+pip3 install snowflake-sqlalchemy
+pip3 install pyyaml
+
+
+to run command
+
+python3 CreateDbSchemaRoles.py Create
+python3 CreateDbSchemaRoles.py Delete
